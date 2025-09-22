@@ -1,6 +1,8 @@
 # vhdl_project
 
+## Phase 1: GPIO Testing
 **Description:**
+
 Proof of concept testing to see interfacing with external components via GPIO pins. Here I connected Pin 28 to an LED on a breadboard. When both buttons are pressed or both are unpressed, the LED is off. The LED only turns on when one button is pressed.
 
 **Code:**
@@ -22,4 +24,5 @@ end Behavioral;
 ```
 
 **Video:**
+
 [![Watch the demo](https://img.youtube.com/vi/qv7MFZ6MWjA/0.jpg)](https://youtube.com/shorts/qv7MFZ6MWjA)
