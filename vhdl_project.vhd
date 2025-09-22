@@ -1,0 +1,17 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity vhdl_project is
+    Port ( 
+        input1 : in STD_LOGIC;    -- First input
+        input2 : in STD_LOGIC;    -- Second input
+        led_out : out STD_LOGIC   -- LED output
+    );
+end vhdl_project;
+
+architecture Behavioral of vhdl_project is
+begin
+    -- Simple AND gate implementation
+    led_out <= input1 xor input2;
+    
+end Behavioral;
